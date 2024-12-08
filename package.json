@@ -8,6 +8,7 @@
   "scripts": {
     "deploy": "npm run build && wrangler pages deploy",
     "build": "remix vite:build",
+    "dev:ngrok": "node start-with-ngrok.js",
     "dev": "remix vite:dev",
     "test": "vitest --run",
     "test:watch": "vitest",
@@ -110,6 +111,7 @@
     "fast-glob": "^3.3.2",
     "husky": "9.1.7",
     "is-ci": "^3.0.1",
+    "ngrok": "5.0.0-beta.2",
     "node-fetch": "^3.3.2",
     "pnpm": "^9.14.4",
     "prettier": "^3.4.1",
