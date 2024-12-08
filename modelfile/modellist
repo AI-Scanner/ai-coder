@@ -1,0 +1,2 @@
+FORM deepseek-coder-v2:latest
+PARAMETER num_ctx 24576
